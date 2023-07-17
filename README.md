@@ -1,1 +1,9 @@
 # SQLChat
+
+SQLChat Agent is a powerful tool designed to facilitate seamless interaction with your Postgres SQL database by leveraging the power of natural language queries. By establishing a connection to your database, this tool enables you to input queries in plain English, which are then intelligently transformed into SQL queries using LangChain. The SQL query is executed against your database, and the results are returned in two formats: the raw output and a user-friendly rendition for easy comprehension.
+
+With SQLChat Agent, you can effortlessly communicate with your database using natural language, eliminating the need to manually construct complex SQL queries. By bridging the gap between human language and database operations, this tool empowers users to retrieve information, perform calculations, filter data, and conduct various database tasks using intuitive language constructs.
+
+The core functionality of SQLChat Agent revolves around its ability to seamlessly connect to your Postgres SQL database. To establish this connection, you need to provide essential database credentials such as the database name, password, host, port, and user. Additionally, you'll need an OpenAI API key to utilize the LangChain natural language processing model, which underpins the conversion of your natural language queries into SQL queries.
+
+It's important to keep in mind that SQLChat Agent currently supports only Postgres SQL databases. While it strives to handle a wide range of natural language queries effectively, the effectiveness may vary depending on the complexity of the query and the uniqueness of the sentence structure. Furthermore, please ensure that your `conf.json` file, which contains sensitive information like database credentials and API keys, is securely stored and not shared publicly.
