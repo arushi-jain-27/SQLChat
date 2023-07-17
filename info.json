@@ -1,0 +1,13 @@
+{
+    "actor": ["actor_id", "first_name", "last_name"],
+    "category": ["category_id", "name"],
+    "film": ["film_id", "title", "release_year", "desrciption", "language_id", "original_language_id", "rental_duration", "rental_rate", "length", "rating"],
+    "film_actor": ["actor_id", "film_id"],
+    "film_category": ["film_id", "category_id"],
+    "language": ["language_id", "name"],
+    "inventory": ["inventory_id", "film_id", "store_id"],
+    "city": ["city_id", "city", "country_id"],
+    "country": ["country_id", "country"],
+    "customer": ["customer_id", "first_name", "last_name", "store_id", "create_date"],
+    "rental": ["rental_id", "rental_date", "inventory_id", "customer_id", "return_date"]
+}
